@@ -2,7 +2,7 @@
 
 A production-grade, multi-agent AI platform that simulates workflows used inside modern engineering organizations — built as a portfolio project targeting Amazon ML School, Microsoft, Google, Uber, and AI engineering internships.
 
----
+
 
 ## 🏗️ Architecture Overview
 
@@ -46,7 +46,7 @@ A production-grade, multi-agent AI platform that simulates workflows used inside
 └─────────────────────────────────────────────────────────────────┘
 ```
 
----
+
 
 ## 📁 Project Structure
 
@@ -152,7 +152,7 @@ docker compose logs -f backend
 ### Option 3: Demo Mode (No API Key)
 The platform runs fully in **demo mode** without any API keys. All LLM calls return realistic mock responses that demonstrate the workflows. Perfect for portfolio demos.
 
----
+
 
 ## 🔑 Environment Variables
 
@@ -163,7 +163,6 @@ OPENAI_API_KEY=sk-...                 # OpenAI (optional, future integration)
 DATABASE_URL=sqlite:///./data/dev_platform.db  # SQLite default
 ```
 
----
 
 ## 📡 API Reference
 
